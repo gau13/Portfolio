@@ -1,0 +1,151 @@
+#contact {
+  // min-height: calc(100vh - 4rem);
+  // width:85wv;
+  // max-width: 60rem;
+  // margin:0 auto;
+  text-align: center;
+  // margin-top: 30px;
+  display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10px;
+  //   flex-direction: column;
+  //   align-items: center;
+}
+.subtitle {
+  margin: 6em 0 0 10em;
+}
+.contactDesc {
+  padding: 1rem;
+  font-size: large;
+  font-weight: 300;
+}
+.contact-form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  max-width: 60rem;
+}
+.fname,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+.btn {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.first {
+  align-items: center;
+  margin-top: 30px;
+  .mail,
+  .contact {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+
+    padding-left: 100px;
+    .connect {
+      color: rgb(190, 190, 6);
+      font-size: 40px;
+      margin-right: 20px;
+    }
+  }
+  button {
+    padding: 15px;
+    // background-color: red;
+    color: white;
+    border: 10px;
+    font-size: 15px;
+    margin: 20px 0px 0px 50px;
+    transition: background 0.5s;
+    border: 1px solid white;
+    border-radius: 12px;
+  }
+  button:hover {
+    background-color: yellow;
+    color: rgb(60, 60, 60);
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1126px) {
+  //   * {
+  //     margin: 0 auto;
+  //     padding: 0;
+  //     box-sizing: border-box;
+  //     text-decoration: none;
+  //     background: transparent;
+  //     font-family: "Poppins", sans-serif;
+  //   }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .subtitle {
+    margin: 6em 0px 0px 4em;
+  }
+  .first {
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    .mail,
+    .contact {
+      display: flex;
+
+      align-items: center;
+      margin: 10px;
+      padding-left: 0px;
+      .connect {
+        color: yellow;
+        font-size: 30px;
+        margin-right: 20px;
+      }
+    }
+    button {
+      padding: 15px;
+      // background-color: red;
+      color: white;
+      border: 10px;
+      font-size: 15px;
+      margin: 20px 0px 20px 0px;
+      transition: background 0.5s;
+      border: 1px solid white;
+      border-radius: 12px;
+    }
+  }
+  .contact-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+  }
+}

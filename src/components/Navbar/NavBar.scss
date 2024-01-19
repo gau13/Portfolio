@@ -1,0 +1,70 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  //   max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background-color: rgb(40, 40, 40);
+  .name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .first-letter {
+    color: yellow;
+    font-size: 50px;
+  }
+
+  .options {
+    font-size: 20px;
+    .options-item {
+      margin: 1rem;
+      cursor: pointer;
+    }
+
+    .options-item:hover {
+      color: yellow;
+      padding-bottom: 10px;
+      border-bottom: 2px solid yellow;
+    }
+  }
+
+  .list-item:hover {
+    border-bottom: 2px solid yellow;
+  }
+  .navMenu {
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+  }
+  .list-item {
+    color: white;
+    padding: 10px;
+    margin: 0.25rem;
+    background: rgb(30, 0, 30);
+  }
+}
+.mobMenu {
+  display: none;
+}
+
+@media screen and (max-width: 1026px) {
+  .mobMenu {
+    display: flex;
+  }
+  .options {
+    display: none;
+  }
+}
