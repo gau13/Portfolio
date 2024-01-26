@@ -14,9 +14,9 @@ const Intro = () => {
           <br />
           <Typewriter
             options={{
-              strings: ["Frontend Developer"],
+              strings: ["Fullstack Developer"],
               autoStart: true,
-              delay: 75,
+              delay: 70,
               loop: true,
             }}
           />
