@@ -22,7 +22,7 @@ const Intro = () => {
           />
         </span>
         <p className="intro-para">
-          I am a Frontend Developer who also design websites and Develops
+          I am a Fullstack Developer who also design websites and Develops
           <br />
           interactive webpages
         </p>
