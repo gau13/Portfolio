@@ -6,6 +6,7 @@ import Projects from "./components/MyProjects/Projects";
 import Services from "./components/Services/Services";
 import Copyright from "./components/Copyright/Copyright";
 import "./index.css";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Intro />
       <Aboutme />
+      <Skills />
       <Services />
       <Projects />
       <Contact />

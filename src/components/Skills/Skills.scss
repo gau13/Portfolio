@@ -1,0 +1,103 @@
+#skills {
+  padding: 65px 30px;
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+// .main {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   gap: 10px;
+//   padding: 20px;
+//   margin: 30px;
+// }
+.first-sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.second-sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+// .first {
+//   text-align: center;
+//   margin: 10px;
+//   img {
+//     width: 100px;
+//     height: 100px;
+//     object-fit: contain;
+//   }
+//   p {
+//     text-align: center;
+//     margin-top: 10px;
+//     margin-bottom: 0;
+//   }
+// }
+// .second {
+//   text-align: center;
+//   margin: 10px;
+//   img {
+//     width: 100px;
+//     height: 100px;
+//     object-fit: contain;
+//   }
+//   p {
+//     text-align: center;
+//     margin-top: 10px;
+//     margin-bottom: 0;
+//   }
+// }
+// .main-part2 {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   gap: 80px;
+// }
+// .second-row {
+//   text-align: center;
+//   margin: 10px;
+//   img {
+//     width: 100px;
+//     height: 100px;
+//     object-fit: contain;
+//   }
+//   p {
+//     text-align: center;
+//     margin-top: 10px;
+//     margin-bottom: 0;
+//   }
+// }
+
+@media screen and (max-width: 1026px) {
+  #skills {
+    margin-top: 70px;
+    padding: 10px 10px;
+    // width: 0;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+  }
+  .first-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .second-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

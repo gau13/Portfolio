@@ -1,7 +1,10 @@
 import React from "react";
-import work from "../../work-1.png";
-import work2 from "../../work-2.png";
+// import work from "../../work-1.png";
+// import work2 from "../../work-2.png";
 import work3 from "../../work-3.png";
+import movix from "./pics/movix2.png";
+import social from "./pics/social2.png";
+import auth from "./pics/auth1.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 import "./Projects.scss";
@@ -13,34 +16,34 @@ const Projects = () => {
         <h1 className="sub-title">My Projects</h1>
         <div className="work-list">
           <div className="work">
-            <img src={work} />
+            <img src={movix} />
             <div className="layer">
-              <h3>social media app</h3>
+              <h3>Movix streaming App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                nobis.
+                Created app using Frontend Tech stack React.js, Redux-Toolkit,
+                TMDB API, other React libraries
               </p>
               <FaExternalLinkAlt className="link" />
             </div>
           </div>
           <div className="work">
-            <img src={work2} />
+            <img src={social} />
             <div className="layer">
-              <h3>social media app</h3>
+              <h3>Social media app</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                nobis.
+                Created app using React.js, Node.js, Express, MongoDB, User
+                Authentication, complete MERN stack project.
               </p>
               <FaExternalLinkAlt className="link" />
             </div>
           </div>
           <div className="work">
-            <img src={work3} />
+            <img src={auth} />
             <div className="layer">
-              <h3>social media app</h3>
+              <h3>User Authentication</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                nobis.
+                Complete user authentication using Node.js, Express, MongoDB
+                using JWT webtoken,cookies etc.
               </p>
               <FaExternalLinkAlt className="link" />
             </div>

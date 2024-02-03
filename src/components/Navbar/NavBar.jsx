@@ -10,7 +10,7 @@ const NavBar = () => {
     <div>
       <div className="navbar">
         <div className="name">
-          <span className="first-letter">G</span> K
+          <span className="first-letter">G</span>aurav Khaddke
         </div>
         <div className="options">
           <Link
@@ -37,6 +37,17 @@ const NavBar = () => {
           </Link>
           <Link
             activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration={500}
+            className="options-item"
+          >
+            Skills
+          </Link>
+          <Link
+            activeClass="active"
             to="services"
             spy={true}
             smooth={true}
@@ -44,7 +55,7 @@ const NavBar = () => {
             duration={500}
             className="options-item"
           >
-            My services
+            Services
           </Link>
           <Link
             activeClass="active"
@@ -57,6 +68,7 @@ const NavBar = () => {
           >
             Projects
           </Link>
+
           <Link
             activeClass="active"
             to="contact"
@@ -104,6 +116,18 @@ const NavBar = () => {
           </Link>
           <Link
             activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration={500}
+            className="list-item"
+            onClick={() => setShowMenu(false)}
+          >
+            Skills
+          </Link>
+          <Link
+            activeClass="active"
             to="services"
             spy={true}
             smooth={true}
@@ -112,7 +136,7 @@ const NavBar = () => {
             className="list-item"
             onClick={() => setShowMenu(false)}
           >
-            My services
+            Services
           </Link>
           <Link
             activeClass="active"

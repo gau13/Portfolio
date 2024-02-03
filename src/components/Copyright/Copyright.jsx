@@ -8,7 +8,7 @@ const Copyright = () => {
       <p>
         Copyright © Gaurav. Made with
         <FaHeart />
-        by Gaurv Khadke
+        by Gaurav Khaddke
       </p>
     </div>
   );

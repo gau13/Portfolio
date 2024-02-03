@@ -5,17 +5,13 @@ import { useState } from "react";
 import "../../index.css";
 
 const Aboutme = () => {
-  const [toggle, setToggle] = useState(1);
+  const [toggle, setToggle] = useState(2);
 
   const updatetoggle = (id) => {
     setToggle(id);
   };
 
   return (
-    // <>
-    //   <div className="top">
-    //     {" "}
-    //   </div>
     <div id="about">
       <h1 className="about">About Me</h1>
       <div className="row">
@@ -24,18 +20,19 @@ const Aboutme = () => {
         </div>
         <div className="about-col-2">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            facere error cum eveniet adipisci ullam excepturi dolorum rem
-            officiis hic. Facere aut dolorum similique obcaecati ut dolor iusto
-            sint nesciunt?
+            👋Hello! A vibrant and accomplished Full Stack Developer, I am
+            Gaurav Khaddke , an individual fueled by curiosity and innovation.
+            Armed with a strong technical skill set including, HTML5, CSS3,
+            Javascript , React.js, Node.js, etc., I have successfully developed
+            several single-page applications and backend APIs
           </p>
           <div class="tab-titles">
-            <p
+            {/* <p
               className={toggle === 1 ? "tab-links active-link " : "tab-links"}
               onClick={() => updatetoggle(1)}
             >
               Skills
-            </p>
+            </p> */}
             <p
               className={toggle === 2 ? "tab-links active-link" : "tab-links"}
               onClick={() => updatetoggle(2)}
@@ -49,7 +46,7 @@ const Aboutme = () => {
               Education
             </p>
           </div>
-          <div
+          {/* <div
             className={
               toggle === 1 ? "tab-contents active-tab" : "tab-contents"
             }
@@ -80,7 +77,7 @@ const Aboutme = () => {
                 Building Android/iOS apps
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className={toggle === 2 ? "show-content" : "tab-contents"}>
             <ul>
               <li>
@@ -91,14 +88,14 @@ const Aboutme = () => {
                     listStyle: "none",
                   }}
                 >
-                  2021 - Current
+                  2023 Feb - 2024 Jan
                 </span>
                 <br />
                 Bynaric Systems Pvt Ltd{" "}
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>
-                  2019 - 2021
+                  2019 Aug - 2021 Jan
                 </span>
                 <br />
                 TCS{" "}
@@ -112,14 +109,14 @@ const Aboutme = () => {
                   2023
                 </span>
                 <br />
-                Fergusson College
+                Fergusson College (PG)
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>
                   2019
                 </span>
                 <br />
-                Fergusson College
+                Fergusson College (UG)
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>

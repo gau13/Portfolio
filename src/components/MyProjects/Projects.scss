@@ -16,12 +16,15 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  height: 400px;
 }
 .work img {
   width: 100%;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
+  height: 100%;
+  object-fit: contain;
 }
 .layer {
   width: 100%;
@@ -68,5 +71,11 @@
   #projects {
     margin-top: 70px;
     padding: 20px 20px;
+  }
+  .work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
   }
 }

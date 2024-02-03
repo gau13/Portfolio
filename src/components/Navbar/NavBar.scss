@@ -12,8 +12,9 @@
   z-index: 3;
   background-color: rgb(40, 40, 40);
   .name {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
+    font-family: sans-serif;
   }
   .first-letter {
     color: yellow;
@@ -21,7 +22,7 @@
   }
 
   .options {
-    font-size: 20px;
+    font-size: 17px;
     .options-item {
       margin: 1rem;
       cursor: pointer;

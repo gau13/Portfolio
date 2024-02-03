@@ -29,6 +29,15 @@ const Contact = () => {
       );
   };
 
+  const onButtonClick = () => {
+    const pdfUrl = "https://rxresu.me/gauravmkhadke/full-stack-developer";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Resume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div>
       <div className="subtitle">
@@ -47,7 +56,12 @@ const Contact = () => {
                 <FaPhoneSquareAlt className="connect" />
                 9834041593
               </p>
-              <button>Download CV</button>
+              {/* <a
+                href="file:///C:/Users/ADMIN/Downloads/clrqjg9a800671437jjb4g0cr-_3_.pdf"
+                download
+              > */}
+              <button onClick={onButtonClick}>Download CV</button>
+              {/* </a> */}
             </div>
             <div className="second">
               <span className="contactDesc">
