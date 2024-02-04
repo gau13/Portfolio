@@ -29,15 +29,16 @@ const Contact = () => {
       );
   };
 
-  const onButtonClick = () => {
-    const pdfUrl = "https://rxresu.me/gauravmkhadke/full-stack-developer";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Resume.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const onButtonClick = () => {
+  //   const pdfUrl =
+  //     "https://www.resume.com/resume/builder/ec235a77-254a-4754-b04c-14fd23609b6a";
+  //   const link = document.createElement("a");
+  //   link.href = pdfUrl;
+  //   link.download = "Resume.pdf"; // specify the filename
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   return (
     <div>
       <div className="subtitle">
@@ -60,7 +61,7 @@ const Contact = () => {
                 href="file:///C:/Users/ADMIN/Downloads/clrqjg9a800671437jjb4g0cr-_3_.pdf"
                 download
               > */}
-              <button onClick={onButtonClick}>Download CV</button>
+              {/* <button onClick={onButtonClick}>Download CV</button> */}
               {/* </a> */}
             </div>
             <div className="second">
