@@ -4,6 +4,8 @@ import "./Contact.scss";
 import { IoIosSend } from "react-icons/io";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -11,7 +13,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     console.log("hiiii");
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_wws67ic",
@@ -22,9 +23,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Message Sent");
         },
         (error) => {
           console.log(error.text);
+          toast.error("Message Not Sent");
         }
       );
   };
@@ -73,16 +76,17 @@ const Contact = () => {
                 <input
                   type="text"
                   className="fname"
-                  placeholder="Your Name"
+                  placeholder="Your Name and Email"
                   name="your_name"
                   required
                 />
                 <input
                   type="email"
                   className="email"
-                  placeholder="Your Email"
+                  value="gauravmkhadke@gmail.com"
                   name="your_email"
                   required
+                  readOnly
                 />
                 <textarea
                   className="msg"
@@ -93,6 +97,7 @@ const Contact = () => {
                 <button className="btn" type="submit">
                   Submit
                 </button>
+                <ToastContainer />
               </form>
             </div>
           </div>
