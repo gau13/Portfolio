@@ -23,7 +23,9 @@ const Projects = () => {
                 Created app using Frontend Tech stack React.js, Redux-Toolkit,
                 TMDB API, other React libraries
               </p>
-              <FaExternalLinkAlt className="link" />
+              <a href="https://github.com/gau13/Movix-app">
+                <FaExternalLinkAlt className="link" />
+              </a>{" "}
             </div>
           </div>
           <div className="work">
@@ -34,7 +36,9 @@ const Projects = () => {
                 Created app using React.js, Node.js, Express, MongoDB, User
                 Authentication, complete MERN stack project.
               </p>
-              <FaExternalLinkAlt className="link" />
+              <a href="https://github.com/gau13/Social-Media-App">
+                <FaExternalLinkAlt className="link" />
+              </a>{" "}
             </div>
           </div>
           <div className="work">
@@ -45,7 +49,9 @@ const Projects = () => {
                 Complete user authentication using Node.js, Express, MongoDB
                 using JWT webtoken,cookies etc.
               </p>
-              <FaExternalLinkAlt className="link" />
+              <a href="https://github.com/gau13/User-Auth">
+                <FaExternalLinkAlt className="link" />
+              </a>
             </div>
           </div>
         </div>

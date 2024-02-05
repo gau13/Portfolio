@@ -91,14 +91,14 @@ const Aboutme = () => {
                   2023 Feb - 2024 Jan
                 </span>
                 <br />
-                Bynaric Systems Pvt Ltd{" "}
+                Bynaric Systems Pvt Ltd
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>
                   2019 Aug - 2021 Jan
                 </span>
                 <br />
-                TCS{" "}
+                TCS
               </li>
             </ul>
           </div>
@@ -109,7 +109,9 @@ const Aboutme = () => {
                   2023
                 </span>
                 <br />
-                Fergusson College (PG)
+                <span>Fergusson College (PG)</span>
+                <br />
+                <span style={{ fontStyle: "italic" }}>CGPA - 8.12</span>
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>
@@ -117,6 +119,8 @@ const Aboutme = () => {
                 </span>
                 <br />
                 Fergusson College (UG)
+                <br />
+                <span style={{ fontStyle: "italic" }}>CGPA - 8.99</span>
               </li>
               <li>
                 <span style={{ color: "rgb(195, 195, 14)", fontSize: "15px" }}>
